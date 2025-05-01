@@ -43,15 +43,16 @@ The application is intentionally open-source because I believe in sharing practi
 
 ## Version History
 
-### v1.0.0 (Initial Release)
+### v1.0.0 (Current)
 - Basic file renaming functionality
 - Prefix and suffix support
 - Hidden file skipping
 - Leading zeros option
-- Added theme support (Light, Dark, System)
-- Added extension toggle option
-- Improved real-time preview
-- Added warning confirmation dialog option
+- Theme support (Light, Dark, System)
+- Extension toggle option
+- Real-time preview
+- Warning confirmation dialog option
+
 ### v1.1.0 (Coming Soon)
 - Enhanced drag-and-drop interface with visual feedback
 - Improved button state management
@@ -65,6 +66,16 @@ The application is intentionally open-source because I believe in sharing practi
 ## License
 
 This project is open-source under the MIT License.
+
+## Security Notes
+
+Bulk File Renamer is currently unsigned. This means Windows may display a security warning when you run it. This is normal for open-source applications.
+
+To bypass the warning:
+1. Click "More info" on the SmartScreen popup
+2. Click "Run anyway"
+
+If you're concerned about security, the source code is freely available for inspection and you can build the application yourself.
 
 ## Contact
 
