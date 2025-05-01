@@ -38,7 +38,7 @@ The application is intentionally open-source because I believe in sharing practi
 ## Installation
 
 1. Download the latest version from the [releases section](https://github.com/username/BulkFileRenamer/releases) (or compile it from source).
-2. Extract the folder and run the `BulkFileRenamer.exe`.
+2. Extract the folder and run the `Bulk File Renamer.exe`.
 3. No installation required.
 
 ## Version History
