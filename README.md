@@ -2,6 +2,8 @@
 
 **Bulk File Renamer** is a simple and powerful tool that allows users to quickly rename multiple files in a folder with a customizable pattern. Ideal for organizing large batches of files, this app makes it easy to add prefixes, suffixes, and numbered sequences to file names.
 
+![Bulk File Renamer 1 0 0](https://github.com/user-attachments/assets/ae91363c-30a7-4aa4-8461-b80183ea034e)
+
 ## Project Background
 
 This application was born out of a real need - I originally created a batch file version when I needed to rename multiple files for a project. As a game developer who hadn't previously created Windows desktop applications, I decided to transform it into a proper UI tool that anyone could use without needing to understand command-line operations.
@@ -37,7 +39,7 @@ The application is intentionally open-source because I believe in sharing practi
 
 ## Installation
 
-1. Download the latest version from the [releases section](https://github.com/username/BulkFileRenamer/releases) (or compile it from source).
+1. Download the latest version from the [releases section](https://github.com/Tunmix/bulk-file-renamer/releases) (or compile it from source).
 2. Extract the folder and run the `Bulk File Renamer.exe`.
 3. No installation required.
 
