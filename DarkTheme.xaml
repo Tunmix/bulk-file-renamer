@@ -1,0 +1,72 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="WindowBackground" Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="ButtonBackground" Color="#3C3C3C"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="ButtonHoverBackground" Color="#FF1F1F1F"/>
+    <SolidColorBrush x:Key="ButtonHoverForeground" Color="Gray"/>
+    <SolidColorBrush x:Key="TextBoxBackground" Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="TextBoxForeground" Color="White"/>
+    <SolidColorBrush x:Key="TextBoxBorderBrush" Color="#505050"/>
+    <SolidColorBrush x:Key="TextBoxCaretBrush" Color="White"/>
+    <SolidColorBrush x:Key="ListBoxBackground" Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="ListBoxForeground" Color="White"/>
+    <SolidColorBrush x:Key="ListBoxBorderBrush" Color="#505050"/>
+    <!--<SolidColorBrush x:Key="ListBoxSelectionBrush" Color="#505050"/>-->
+    <SolidColorBrush x:Key="MenuBackground"            Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="MenuForeground"            Color="White"/>
+    <SolidColorBrush x:Key="MenuItemBackground"            Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="MenuItemForeground"            Color="White"/>
+    <SolidColorBrush x:Key="MenuItemBorderBrush"            Color="#505050"/>
+
+    <!--<SolidColorBrush x:Key="MenuItemHoverBackground"   Color="#2E2E2E"/>
+    <SolidColorBrush x:Key="MenuItemHoverForeground"   Color="DarkGray"/>-->
+
+    <SolidColorBrush x:Key="ToggleButtonBackground"        Color="#3C3C3C"/>
+    <SolidColorBrush x:Key="ToggleButtonForeground"        Color="White"/>
+    <SolidColorBrush x:Key="ToggleButtonBorderBrush"       Color="#505050"/>
+    <SolidColorBrush x:Key="ToggleButtonHoverBackground"   Color="#3C3C3C"/>
+    <SolidColorBrush x:Key="ToggleButtonHoverForeground"   Color="#1F1F1F"/>
+    <SolidColorBrush x:Key="ToggleButtonCheckedBackground" Color="#FF1670F7"/>
+    <SolidColorBrush x:Key="ToggleButtonCheckedForeground" Color="White"/>
+
+    <SolidColorBrush x:Key="LabelForeground" Color="White"/>
+    <SolidColorBrush x:Key="LabelBackground" Color="Transparent"/>
+
+    <Style TargetType="CheckBox">
+        <!-- normal -->
+        <Setter Property="Background"   Value="{DynamicResource ToggleButtonBackground}"/>
+        <Setter Property="Foreground"   Value="{DynamicResource ToggleButtonForeground}"/>
+        <Setter Property="BorderBrush"  Value="{DynamicResource ToggleButtonBorderBrush}"/>
+
+        <Style.Triggers>
+            <!-- hover -->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ToggleButtonHoverBackground}"/>
+                <Setter Property="Foreground" Value="{DynamicResource ToggleButtonHoverForeground}"/>
+            </Trigger>
+            <!-- checked -->
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ToggleButtonCheckedBackground}"/>
+                <Setter Property="Foreground" Value="{DynamicResource ToggleButtonCheckedForeground}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="MenuItem">
+        <!-- normal -->
+        <Setter Property="Background"   Value="{DynamicResource MenuItemBackground}"/>
+        <Setter Property="Foreground"   Value="{DynamicResource MenuItemForeground}"/>
+        <Setter Property="BorderBrush"  Value="{DynamicResource MenuItemBorderBrush}"/>
+
+        <Style.Triggers>
+            <!-- hover -->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ToggleButtonHoverBackground}"/>
+                <Setter Property="Foreground" Value="{DynamicResource ToggleButtonHoverForeground}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>
